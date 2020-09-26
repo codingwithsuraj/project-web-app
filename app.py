@@ -12,7 +12,7 @@ from sklearn.ensemble import RandomForestClassifier
 
 from sklearn.metrics import accuracy_score
 
-st.title('Streamlit web app with suraj')
+st.title('web app with suraj')
 
 st.write("""
 # Explore different classifier and datasets
