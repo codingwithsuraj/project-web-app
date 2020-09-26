@@ -55,6 +55,13 @@ X, y = get_dataset(dataset_name)
 st.write('Shape of dataset:', X.shape)
 st.write('number of classes:', len(np.unique(y)))
 
+    
+if st.checkbox("Preview DataFrame"):
+    if st.button('Item-Size:'):
+        st.write(X.itemsize)
+    elif st.button('Flags:'):
+        st.write(X.flags)
+
 
 def add_parameter_ui(clf_name):
     params = dict()
